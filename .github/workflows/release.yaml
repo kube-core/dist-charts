@@ -37,5 +37,5 @@ jobs:
           skip_packaging: true
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          CR_SKIP_EXISTING: false
+          CR_SKIP_EXISTING: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

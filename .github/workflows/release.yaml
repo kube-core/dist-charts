@@ -26,10 +26,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # https://github.com/helm/chart-releaser-action/issues/74
-      - name: Add repositories
+      - name: Create packages
         run: |
-          for dir in $(ls -d charts/*/); do helm dependency list $dir 2> /dev/null | tail +2 | head -n -1 | awk '{ print "helm repo add " $1 " " $3 }' | while read cmd; do echo $cmd; done done | sort -u | bash
+          mkdir -p ./.cr-release-packages && find ./* -mindepth 0 -maxdepth 1 -type d | xargs -i helm package --destination ./.cr-release-packages '{}'
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.5.0
@@ -37,5 +37,6 @@ jobs:
           charts_dir: charts
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          CR_SKIP_EXISTING: true
+          CR_SKIP_EXISTING: false
+          CR_SKIP_PACKAGING:  true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

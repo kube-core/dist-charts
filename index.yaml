@@ -1,0 +1,1803 @@
+apiVersion: v1
+entries:
+  app-extensions:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:15.848524903Z"
+    description: A Helm chart for Kubernetes
+    digest: a226f45b141a99c3b34af1475aa9bf4d072d182c4355686f941ecb1a23b765b9
+    name: app-extensions
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/app-extensions-0.2.0/app-extensions-0.2.0.tgz
+    version: 0.2.0
+  app-scaling:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:16.049851922Z"
+    description: A Helm chart for Kubernetes
+    digest: 02d886c0aa2f37a45c22257a4fd72b0f9342e8efe96929c50f5a2236d7c83b14
+    name: app-scaling
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/app-scaling-0.1.0/app-scaling-0.1.0.tgz
+    version: 0.1.0
+  cert-manager:
+  - annotations:
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v1
+    appVersion: v1.9.1
+    created: "2023-04-22T02:40:16.258412904Z"
+    description: A Helm chart for cert-manager
+    digest: 07f2b3227737865f8c1ae76229b208dc1b0b83de9970d32f2c757c62e257ed51
+    home: https://github.com/cert-manager/cert-manager
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/d53c0b9270f8cd90d908460d69502694e1838f5f/logo/logo-small.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+      url: https://cert-manager.io
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/cert-manager-v1.9.1/cert-manager-v1.9.1.tgz
+    version: v1.9.1
+  chaos-mesh:
+  - annotations:
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Seamless Upgrades
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 2.5.1
+    created: "2023-04-22T02:40:16.479882695Z"
+    description: Chaos Mesh is a cloud-native Chaos Engineering platform that orchestrates
+      chaos on Kubernetes environments.
+    digest: 8efa6958a7ec79c433f1ee6527212812f2d4a7360cdba0b2290ad43be5c39796
+    home: https://chaos-mesh.org
+    icon: https://raw.githubusercontent.com/pingcap/chaos-mesh/master/static/logo.svg
+    keywords:
+    - chaos-engineering
+    - resiliency
+    - fault-injection
+    - kubernetes
+    - testing
+    maintainers:
+    - email: cwen@pingcap.com
+      name: cwen0
+    - email: yangkeao@chunibyo.icu
+      name: YangKeao
+    - email: wenghao@pingcap.com
+      name: dcalvin
+    - email: yb532204897@gmail.com
+      name: yeya24
+    - email: tttick@gmail.com
+      name: Gallardot
+    name: chaos-mesh
+    sources:
+    - https://github.com/pingcap/chaos-mesh
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/chaos-mesh-2.5.1/chaos-mesh-2.5.1.tgz
+    version: 2.5.1
+  chartmuseum:
+  - apiVersion: v2
+    appVersion: 0.15.0
+    created: "2023-04-22T02:40:16.75321673Z"
+    description: Host your own Helm Chart Repository
+    digest: 6119ebb7dd31a1067a089fd1bd19a54bb7c5ce00adaea031cd2591934196769a
+    home: https://github.com/helm/chartmuseum
+    icon: https://raw.githubusercontent.com/chartmuseum/charts/main/logo.jpg
+    keywords:
+    - chartmuseum
+    - helm
+    - charts repo
+    maintainers:
+    - name: chartmuseum
+      url: https://github.com/chartmuseum
+    name: chartmuseum
+    sources:
+    - https://github.com/chartmuseum/charts/tree/main/src/chartmuseum
+    - https://github.com/chartmuseum
+    - https://github.com/helm/chartmuseum
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/chartmuseum-3.9.3/chartmuseum-3.9.3.tgz
+    version: 3.9.3
+  cluster-logging:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:16.982268286Z"
+    description: A Helm chart for Kubernetes
+    digest: 181b3ea1885f233721d85b0bab4556a49d50ab5a82e0d5c9b97a9916d1a22af6
+    name: cluster-logging
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/cluster-logging-0.1.0/cluster-logging-0.1.0.tgz
+    version: 0.1.0
+  cluster-policies:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:17.183411504Z"
+    description: A Helm chart for Kubernetes
+    digest: 73393194c5ae8f79403f29367e604d40b7ae5550cea4c50f969ee30d7c9c5dde
+    name: cluster-policies
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/cluster-policies-0.1.0/cluster-policies-0.1.0.tgz
+    version: 0.1.0
+  cluster-rbac:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:17.395876518Z"
+    description: A Helm chart for Kubernetes
+    digest: 12401bcf6e76f8331d188dd1cfad70e61416153b2458f9c75d889194f6422357
+    name: cluster-rbac
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/cluster-rbac-0.1.0/cluster-rbac-0.1.0.tgz
+    version: 0.1.0
+  community-operator:
+  - apiVersion: v2
+    appVersion: 0.7.6
+    created: "2023-04-22T02:40:17.603079888Z"
+    dependencies:
+    - condition: community-operator-crds.enabled
+      name: community-operator-crds
+      repository: https://mongodb.github.io/helm-charts
+      version: 0.7.6
+    description: MongoDB Kubernetes Community Operator
+    digest: e82160e13f8ce3a0aae46c068bce614b2920e5946feaaf40f6d667a3b0624e02
+    home: https://github.com/mongodb/mongodb-kubernetes-operator
+    icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16-0'
+    maintainers:
+    - email: support@mongodb.com
+      name: MongoDB
+    name: community-operator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/community-operator-0.7.6/community-operator-0.7.6.tgz
+    version: 0.7.6
+  container-registry-cleaner:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:17.819238034Z"
+    description: A Helm chart for Kubernetes
+    digest: cfebe1ddc49d8ff6daee491816133abe40243b04f13034423b6ae1eef7e6ee3b
+    name: container-registry-cleaner
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/container-registry-cleaner-0.1.0/container-registry-cleaner-0.1.0.tgz
+    version: 0.1.0
+  container-registry-config:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:18.011265074Z"
+    description: A Helm chart for Kubernetes
+    digest: 214afd230fda68c6cb54506e99f7a1b569f8266f202ea11e05e0ae54d1fe72fd
+    name: container-registry-config
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/container-registry-config-0.1.0/container-registry-config-0.1.0.tgz
+    version: 0.1.0
+  container-registry-operator:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2023-04-22T02:40:18.227682923Z"
+    description: A Helm chart for Kubernetes
+    digest: 58780722b6f4c467f0929aeec739eac282c63fbe3295d42b0e6cdb139199a21f
+    name: container-registry-operator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/container-registry-operator-0.1.1/container-registry-operator-0.1.1.tgz
+    version: 0.1.1
+  crossplane:
+  - apiVersion: v1
+    appVersion: 1.10.1
+    created: "2023-04-22T02:40:18.422271085Z"
+    description: Crossplane is an open source Kubernetes add-on that enables platform
+      teams to assemble infrastructure from multiple vendors, and expose higher level
+      self-service APIs for application teams to consume.
+    digest: 64d5c85f85162836e250183aea146ec4c731dd28daa1a8b1953de6cb6f234073
+    home: https://crossplane.io
+    icon: https://crossplane.io/images/favicon_192x192.png
+    keywords:
+    - cloud
+    - infrastructure
+    - services
+    - application
+    - database
+    - cache
+    - bucket
+    - infra
+    - app
+    - ops
+    - gcp
+    - azure
+    - aws
+    - alibaba
+    - cloudsql
+    - rds
+    - s3
+    - azuredatabase
+    - asparadb
+    - gke
+    - aks
+    - eks
+    maintainers:
+    - email: info@crossplane.io
+      name: Crossplane Maintainers
+    name: crossplane
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/crossplane-1.10.1/crossplane-1.10.1.tgz
+    version: 1.10.1
+  descheduler:
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2023-04-22T02:40:18.620987282Z"
+    description: Descheduler for Kubernetes is used to rebalance clusters by evicting
+      pods that can potentially be scheduled on better nodes. In the current implementation,
+      descheduler does not schedule replacement of evicted pods but relies on the
+      default scheduler for that.
+    digest: 0ad409c3e7c9e71f59e630a9381e363584a41b83353fc7e9d6d66ceba774eed8
+    home: https://github.com/kubernetes-sigs/descheduler
+    icon: https://kubernetes.io/images/favicon.png
+    keywords:
+    - kubernetes
+    - descheduler
+    - kube-scheduler
+    maintainers:
+    - email: kubernetes-sig-scheduling@googlegroups.com
+      name: Kubernetes SIG Scheduling
+    name: descheduler
+    sources:
+    - https://github.com/kubernetes-sigs/descheduler
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/descheduler-0.25.1/descheduler-0.25.1.tgz
+    version: 0.25.1
+  dex:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: "Update Dex to 2.35.3"
+      artifacthub.io/images: |
+        - name: dex
+          image: ghcr.io/dexidp/dex:v2.35.3
+    apiVersion: v2
+    appVersion: 2.35.3
+    created: "2023-04-22T02:40:18.834366804Z"
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors.
+    digest: 604aba795e706bfe2ef60bafb7e1eced09c9c7a75b29d5794a5f44ee9569c0f9
+    home: https://dexidp.io/
+    icon: https://dexidp.io/favicon.png
+    keywords:
+    - oidc
+    - oauth
+    - identity-provider
+    - saml
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: mark.sagikazar@gmail.com
+      name: sagikazarmark
+      url: https://sagikazarmark.hu
+    name: dex
+    sources:
+    - https://github.com/dexidp/dex
+    - https://github.com/dexidp/helm-charts/tree/master/charts/dex
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/dex-0.12.1/dex-0.12.1.tgz
+    version: 0.12.1
+  eck-operator:
+  - apiVersion: v2
+    appVersion: 2.4.0
+    created: "2023-04-22T02:40:19.055033489Z"
+    dependencies:
+    - condition: installCRDs
+      name: eck-operator-crds
+      repository: ""
+      version: 2.4.0
+    description: 'A Helm chart for deploying the Elastic Cloud on Kubernetes (ECK)
+      operator: the official Kubernetes operator for orchestrating Elasticsearch,
+      Kibana, APM Server, Enterprise Search, and Beats.'
+    digest: 8a8ede884ec325543b9e822ea984700359617c032f7cf0f91cdde2f77eb3a700
+    home: https://github.com/elastic/cloud-on-k8s
+    icon: https://helm.elastic.co/icons/eck.png
+    keywords:
+    - Elasticsearch
+    - Kibana
+    - APM Server
+    - Beats
+    - Enterprise Search
+    - Elastic Stack
+    - Operator
+    kubeVersion: '>=1.12.0-0'
+    maintainers:
+    - email: eck@elastic.co
+      name: Elastic
+    name: eck-operator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/eck-operator-2.4.0/eck-operator-2.4.0.tgz
+    version: 2.4.0
+  env-config:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:19.267614005Z"
+    description: A Helm chart for Kubernetes
+    digest: 7f2fe6784aa5ecd354d48a8b58e402103833ce449ff45c9fe43594d4b1613742
+    name: env-config
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/env-config-0.1.0/env-config-0.1.0.tgz
+    version: 0.1.0
+  estafette-gke-node-pool-shifter:
+  - apiVersion: v1
+    appVersion: 1.2.4
+    created: "2023-04-22T02:40:19.478322604Z"
+    description: Kubernetes controller that can shift nodes from one node pool to
+      another, to favour for example preemptibles over regular vms
+    digest: 5cbfd25dbee23aca452bc981a7aa15834de456d40a6fe607bd53f50b2da5d005
+    home: https://helm.estafette.io
+    icon: https://helm.estafette.io/icon.png
+    name: estafette-gke-node-pool-shifter
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/estafette-gke-node-pool-shifter-1.2.4/estafette-gke-node-pool-shifter-1.2.4.tgz
+    version: 1.2.4
+  estafette-gke-preemptible-killer:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2023-04-22T02:40:19.695671961Z"
+    description: Kubernetes controller to spread preemption for preemtible VMs in
+      GKE to avoid mass deletion after 24 hours
+    digest: 1848ba5ea41a7b70a61e20d8a541ab15c50cf2be88828f3d51cfa2955976ef0c
+    home: https://helm.estafette.io
+    icon: https://helm.estafette.io/icon.png
+    name: estafette-gke-preemptible-killer
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/estafette-gke-preemptible-killer-1.3.0/estafette-gke-preemptible-killer-1.3.0.tgz
+    version: 1.3.0
+  estafette-k8s-node-compactor:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2023-04-22T02:40:19.929660359Z"
+    description: Kubernetes controller to assist Cluster Autoscaler in compacting
+      nodes more efficiently
+    digest: 8fddfb61e4e20f0e98c7ab83400338d31036ffd5e2416745d81a134396f1eb88
+    home: https://helm.estafette.io
+    icon: https://helm.estafette.io/icon.png
+    name: estafette-k8s-node-compactor
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/estafette-k8s-node-compactor-1.1.0/estafette-k8s-node-compactor-1.1.0.tgz
+    version: 1.1.0
+  estafette-vulnerability-scanner:
+  - apiVersion: v1
+    appVersion: 0.1.14
+    created: "2023-04-22T02:40:20.132874795Z"
+    description: An application that regularly scans all containers in a Kubernetes
+      cluster for vulnerabilities
+    digest: 85e90a7e7a0c8d9f24724d15fd489639e74a3c71c24df312bd836002f9be01af
+    home: https://helm.estafette.io
+    icon: https://helm.estafette.io/icon.png
+    name: estafette-vulnerability-scanner
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/estafette-vulnerability-scanner-0.1.14/estafette-vulnerability-scanner-0.1.14.tgz
+    version: 0.1.14
+  external-dns:
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: 0.12.2
+    created: "2023-04-22T02:40:20.366545691Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: ExternalDNS is a Kubernetes addon that configures public DNS servers
+      with information about exposed Kubernetes services to make them discoverable.
+    digest: 7b7d7ded43d94f4a173b2dfc147ba58ff7e566036ab79120dc1fdc58080175ff
+    home: https://github.com/bitnami/charts/tree/master/bitnami/external-dns
+    icon: https://bitnami.com/assets/stacks/external-dns/img/external-dns-stack-220x234.png
+    keywords:
+    - external-dns
+    - network
+    - dns
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: external-dns
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    - https://github.com/bitnami/containers/tree/main/bitnami/external-dns
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/external-dns-6.7.5/external-dns-6.7.5.tgz
+    version: 6.7.5
+  external-secrets:
+  - apiVersion: v2
+    appVersion: 0.5.3
+    created: "2023-04-22T02:40:20.566409798Z"
+    dependencies:
+    - name: external-secrets
+      repository: https://charts.external-secrets.io
+      version: 0.5.3
+    description: A Helm chart for Kubernetes
+    digest: 4d7b2fbc4f06050b9e661b4df63ff1908036e7a858cedaee4e74d0f8c80662db
+    name: external-secrets
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/external-secrets-0.1.0/external-secrets-0.1.0.tgz
+    version: 0.1.0
+  flux:
+  - apiVersion: v2
+    appVersion: 0.30.2
+    created: "2023-04-22T02:40:20.779485218Z"
+    description: A Helm chart for Kubernetes
+    digest: 1ac85de2daec6556a6fe72982ffd1392b5ed6380df322d0e0228c956b3ed0320
+    name: flux
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/flux-0.1.0/flux-0.1.0.tgz
+    version: 0.1.0
+  flux-config:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:20.974533981Z"
+    description: A Helm chart for Kubernetes
+    digest: bad2342008c35d28795a79d97bcd11523cc26493e1b0a01e4d647e0baf866f3a
+    name: flux-config
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/flux-config-0.1.0/flux-config-0.1.0.tgz
+    version: 0.1.0
+  flux-repository:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:21.159255255Z"
+    description: A Helm chart for Kubernetes
+    digest: a5f9fe4eed4e0ac4234fbf652c90e7d732882fa887ac3ebb06bf96b27707f664
+    name: flux-repository
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/flux-repository-0.1.0/flux-repository-0.1.0.tgz
+    version: 0.1.0
+  forecastle:
+  - apiVersion: v1
+    created: "2023-04-22T02:40:21.376517207Z"
+    description: forecastle chart that runs on kubernetes
+    digest: dc2b2cdf5257e32ada2292496cf53971794a22c818f5961f5d591657404caeca
+    home: https://github.com/stakater/Forecastle
+    icon: https://github.com/stakater/Forecastle/raw/master/assets/web/forecastle-round-100px.png
+    keywords:
+    - forecastle
+    - kubernetes
+    maintainers:
+    - email: stakater@aurorasolutions.io
+      name: Stakater
+    name: forecastle
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/forecastle-v1.0.97/forecastle-v1.0.97.tgz
+    version: v1.0.97
+  goldilocks:
+  - apiVersion: v2
+    appVersion: v4.5.1
+    created: "2023-04-22T02:40:21.582791865Z"
+    dependencies:
+    - condition: vpa.enabled
+      name: vpa
+      repository: https://charts.fairwinds.com/stable
+      version: 1.3.0
+    - condition: metrics-server.enabled
+      name: metrics-server
+      repository: https://charts.bitnami.com/bitnami
+      version: 5.11.4
+    description: 'A Helm chart for running Fairwinds Goldilocks. See https://github.com/FairwindsOps/goldilocks '
+    digest: 2ad0d85ffd8e71c2af00b7042b806ab6911ef26d022981b46f702d67de4d9d69
+    icon: https://raw.githubusercontent.com/FairwindsOps/charts/master/stable/goldilocks/icon.png
+    keywords:
+    - goldilocks
+    - resources
+    - kubernetes
+    maintainers:
+    - name: sudermanjr
+    name: goldilocks
+    sources:
+    - https://github.com/FairwindsOps/goldilocks
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/goldilocks-6.3.3/goldilocks-6.3.3.tgz
+    version: 6.3.3
+  imagecache:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:21.800874424Z"
+    description: A Helm chart for Kubernetes
+    digest: 4e133f661d0fb991a0f805862c19f995e7c7c219a8f46305b52d5571c4d1005f
+    name: imagecache
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/imagecache-0.1.0/imagecache-0.1.0.tgz
+    version: 0.1.0
+  ingress-access-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:22.00807319Z"
+    description: A Helm chart for Kubernetes
+    digest: 6274ef4d6e9a24f15f9acc0b71ac50f865b66b7191508b9421a1488ff655f4f4
+    name: ingress-access-operator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/ingress-access-operator-0.1.0/ingress-access-operator-0.1.0.tgz
+    version: 0.1.0
+  istio-base:
+  - apiVersion: v1
+    appVersion: 1.17.2
+    created: "2023-04-22T02:40:22.218892287Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: 6dcfa7dea3831b6e4c2d787d7d53254a174b51ebc8d38131834cf9724e582093
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: istio-base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-base-1.17.2/istio-base-1.17.2.tgz
+    version: 1.17.2
+  istio-discovery:
+  - apiVersion: v1
+    appVersion: 1.17.2
+    created: "2023-04-22T02:40:22.429030478Z"
+    description: Helm chart for istio control plane
+    digest: 40cc4ae8e88e9073a3d20ac5eaf283c17b80d4f7f03199440c42b9fbe5b2a8b6
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istio-discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-discovery-1.17.2/istio-discovery-1.17.2.tgz
+    version: 1.17.2
+  istio-elasticsearch:
+  - apiVersion: v2
+    appVersion: 8.3.3
+    created: "2023-04-22T02:40:22.617952288Z"
+    description: A Helm chart for Kubernetes
+    digest: 627c5d5539974bf24a16c028cbd1774fbad3c30efe99e575f82d1b3607757be2
+    name: istio-elasticsearch
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-elasticsearch-0.1.0/istio-elasticsearch-0.1.0.tgz
+    version: 0.1.0
+  istio-grafana:
+  - apiVersion: v2
+    created: "2023-04-22T02:40:22.819560907Z"
+    description: Helm chart for deploying Istio Grafana
+    digest: c023f292de5afc6eb9bf15e1abeb4e205a26668bd0d1a2957bd33b8fd8d97204
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: istio-grafana
+    sources:
+    - https://raw.githubusercontent.com/istio/istio/release-1.10/samples/addons/grafana.yaml
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-grafana-1.17/istio-grafana-1.17.tgz
+    version: "1.17"
+  istio-ingress-config:
+  - apiVersion: v2
+    created: "2023-04-22T02:40:23.013965964Z"
+    description: Helm chart for deploying Istio Kiali
+    digest: 4f0ecfab12d034859ea43137944592b95ae9258722a8251684287b2110877daf
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: istio-ingress-config
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-ingress-config-0.1.0/istio-ingress-config-0.1.0.tgz
+    version: 0.1.0
+  istio-jaeger:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:23.231634419Z"
+    description: A Helm chart for Kubernetes
+    digest: e9e416369ae63bd86366ac99bf5a47610d9a3f1a72b9e1e0c0efd713cbb24e27
+    name: istio-jaeger
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-jaeger-1.17/istio-jaeger-1.17.tgz
+    version: "1.17"
+  istio-kiali:
+  - apiVersion: v2
+    created: "2023-04-22T02:40:23.433008936Z"
+    description: Helm chart for deploying Istio Kiali
+    digest: 437549ca468d9ec6f586f873ee30d1f05b0047c6ae3ec1371c02a83546dcab00
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: istio-kiali
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-kiali-1.17/istio-kiali-1.17.tgz
+    version: "1.17"
+  istio-prometheus:
+  - apiVersion: v2
+    created: "2023-04-22T02:40:23.620816836Z"
+    description: Helm chart for deploying Istio Prometheus
+    digest: b118a3cf3d46eb3cb50a15dbb6444b8c2a16c18d6d215b5a7b9870b098166eb8
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: istio-prometheus
+    sources:
+    - https://raw.githubusercontent.com/istio/istio/release-1.10/samples/addons/prometheus.yaml
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-prometheus-1.17/istio-prometheus-1.17.tgz
+    version: "1.17"
+  istio-rules-external-services:
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2023-04-22T02:40:23.829316513Z"
+    description: Configure external service for tls origination
+    digest: 681525d46ed1e1ba5b2e5c1b9dc9a9f915147c4e4e741c46027cf1aed574d562
+    name: istio-rules-external-services
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/istio-rules-external-services-1.12.1/istio-rules-external-services-1.12.1.tgz
+    version: 1.12.1
+  jaeger-managed:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:24.035237569Z"
+    description: A Helm chart for Kubernetes
+    digest: c9ca241a601e9f58e566432ded51bddad87e9e4f84b80ebebaa3a6f46c2ab204
+    name: jaeger-managed
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/jaeger-managed-1.17/jaeger-managed-1.17.tgz
+    version: "1.17"
+  jaeger-operator:
+  - apiVersion: v1
+    appVersion: 1.43.0
+    created: "2023-04-22T02:40:24.241281725Z"
+    description: jaeger-operator Helm chart for Kubernetes
+    digest: 2f129f2730c585364500d31d75eb76effea63b7682e3aaf1cb148ae2574227fe
+    home: https://www.jaegertracing.io/
+    icon: https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg
+    maintainers:
+    - email: ctadeu@gmail.com
+      name: cpanato
+    - email: batazor111@gmail.com
+      name: batazor
+    name: jaeger-operator
+    sources:
+    - https://github.com/jaegertracing/jaeger-operator
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/jaeger-operator-2.42.0/jaeger-operator-2.42.0.tgz
+    version: 2.42.0
+  keda:
+  - apiVersion: v2
+    appVersion: 2.8.1
+    created: "2023-04-22T02:40:24.479323254Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: d256a1ae83ec19addc22a461c4e51802c2b5d55a695c30a6f44f60249bc71371
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+    kubeVersion: '>=v1.20.0-0'
+    maintainers:
+    - email: ahmels@microsoft.com
+      name: Ahmed ElSayed
+    - email: jorge_turrado@hotmail.es
+      name: Jorge Turrado
+    - email: kerkhove.tom@gmail.com
+      name: Tom Kerkhove
+    - email: zroubali@redhat.com
+      name: Zbynek Roubalik
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/keda-2.8.2/keda-2.8.2.tgz
+    version: 2.8.2
+  keycloak:
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: 18.0.2
+    created: "2023-04-22T02:40:24.685207609Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Keycloak is a high performance Java-based identity and access management
+      solution. It lets developers add an authentication layer to their applications
+      with minimum effort.
+    digest: 5510a9487d31255c19e41f268b2e19628a03293c374c8f696d0f09ace7e94389
+    home: https://www.keycloak.org
+    icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
+    keywords:
+    - keycloak
+    - access-management
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: keycloak
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/keycloak
+    - https://github.com/keycloak/keycloak
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/keycloak-9.6.9/keycloak-9.6.9.tgz
+    version: 9.6.9
+  keycloak-managed:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:24.901375851Z"
+    description: A Helm chart for Kubernetes
+    digest: 3c61ace4eaa8a68608049b7d8c5a90cc162f4d6325ac6766b8e4e1380ceb0bd9
+    name: keycloak-managed
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/keycloak-managed-0.7.0/keycloak-managed-0.7.0.tgz
+    version: 0.7.0
+  keycloak-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:25.088842549Z"
+    description: A Helm chart for Kubernetes
+    digest: 8a8333f80cc8f0d2981828a10de7a45f43f20d82c4f61807bf565d376c157a66
+    name: keycloak-operator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/keycloak-operator-0.2.0/keycloak-operator-0.2.0.tgz
+    version: 0.2.0
+  kiali-operator:
+  - apiVersion: v2
+    appVersion: v1.66.0
+    created: "2023-04-22T02:40:25.275749642Z"
+    description: Kiali is an open source project for service mesh observability, refer
+      to https://www.kiali.io for details.
+    digest: d79fee0629e954e561a324c31b0cabcbc6b8d05a9c4ab75a84de29fc5f6a8cf8
+    home: https://github.com/kiali/kiali-operator
+    icon: https://raw.githubusercontent.com/kiali/kiali.io/master/themes/kiali/static/img/kiali_logo_masthead.png
+    keywords:
+    - istio
+    - kiali
+    - operator
+    maintainers:
+    - email: kiali-users@googlegroups.com
+      name: Kiali
+      url: https://kiali.io
+    name: kiali-operator
+    sources:
+    - https://github.com/kiali/kiali
+    - https://github.com/kiali/kiali-operator
+    - https://github.com/kiali/helm-charts
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kiali-operator-1.66.0/kiali-operator-1.66.0.tgz
+    version: 1.66.0
+  kps:
+  - apiVersion: v2
+    appVersion: 0.63.0
+    created: "2023-04-22T02:40:25.632243581Z"
+    dependencies:
+    - alias: kps
+      condition: kps.enabled
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 45.1.1
+    - alias: kps-thanos
+      condition: kps-thanos.enabled
+      name: thanos
+      repository: https://charts.bitnami.com/bitnami/
+      version: 12.0.4
+    - alias: kps-minio
+      condition: kps-minio.enabled
+      name: minio
+      repository: https://helm.min.io/
+      version: 8.0.10
+    - alias: kps-robusta
+      condition: kps-robusta.enabled
+      name: robusta
+      repository: https://robusta-charts.storage.googleapis.com
+      version: 0.10.11
+    description: Neo9 monitoring stack (kps+thanos+minio+robusta)
+    digest: 7a66d24a6057d19fe02eb1bbb687ee1cfbf97fdf096e119b5c2daa3b1a480b90
+    icon: https://neo9.fr/assets/images/neo9-logo-baseline.svg
+    kubeVersion: '>=1.22.0-0'
+    name: kps
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kps-1.1.1/kps-1.1.1.tgz
+    version: 1.1.1
+  kube-cleanup-operator:
+  - apiVersion: v2
+    appVersion: v0.8.2
+    created: "2023-04-22T02:40:25.823598312Z"
+    description: Kubernetes Operator to automatically delete completed Jobs and their
+      Pods
+    digest: c3b88dff0e308dd7a40c826880bf8175de7a18bfd538a7754eda8fc8c8db68a2
+    keywords:
+    - kubernetes
+    - operator
+    - cleanup
+    name: kube-cleanup-operator
+    sources:
+    - https://github.com/lwolf/kube-cleanup-operator.git
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kube-cleanup-operator-1.0.4/kube-cleanup-operator-1.0.4.tgz
+    version: 1.0.4
+  kube-downscaler:
+  - apiVersion: v1
+    appVersion: 21.2.0
+    created: "2023-04-22T02:40:26.028599259Z"
+    description: Scale down Kubernetes deployments after work hours
+    digest: 2bbde85b67fcfc16b8b05de6a7d4ae6b27334a8b1d0ed2b49999ba0e1a1459d5
+    home: https://codeberg.org/hjacobs/kube-downscaler
+    keywords:
+    - k8s pods scheduler
+    - scheduled lifecycle
+    maintainers:
+    - name: hjacobs
+      url: https://codeberg.org/hjacobs
+    name: kube-downscaler
+    sources:
+    - https://github.com/deliveryhero/helm-charts
+    - https://codeberg.org/hjacobs/kube-downscaler
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kube-downscaler-0.3/kube-downscaler-0.3.tgz
+    version: "0.3"
+  kube-fledged:
+  - apiVersion: v2
+    appVersion: v0.8.2
+    created: "2023-04-22T02:40:26.238144345Z"
+    description: A Helm chart for deploying kube-fledged
+    digest: f7face72258db2ed2bd23c932a54610754650e6d43fb2f0308c4b00dadffe1c6
+    name: kube-fledged
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kube-fledged-v0.8.2/kube-fledged-v0.8.2.tgz
+    version: v0.8.2
+  kubernetes-replicator:
+  - apiVersion: v2
+    appVersion: v2.7.3
+    created: "2023-04-22T02:40:26.466988696Z"
+    description: Controller for replicating secrets+configmaps across namespaces
+    digest: 067e509a27ebfd008aeed87486dec16a179e0528a916bd9bd2858d5e7bc51bfc
+    name: kubernetes-replicator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kubernetes-replicator-2.7.3/kubernetes-replicator-2.7.3.tgz
+    version: 2.7.3
+  kubernetes-secret-generator:
+  - apiVersion: v2
+    appVersion: v3.4.0
+    created: "2023-04-22T02:40:26.672474947Z"
+    description: Controller for automatically creating random secret values
+    digest: 6506e6c4370c892c576ee893342932c8d412327595ccbc72a3b07f721e6560d0
+    name: kubernetes-secret-generator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kubernetes-secret-generator-3.4.0/kubernetes-secret-generator-3.4.0.tgz
+    version: 3.4.0
+  kyverno:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Exclude Kyverno namespace by default
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://kyverno.io/docs
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: v1.7.3
+    created: "2023-04-22T02:40:27.060444854Z"
+    description: Kubernetes Native Policy Management
+    digest: 979d2fae0c014f89142e94b1b89faf2eba2e5b0db52f038c900d97bc8bbda3cd
+    home: https://kyverno.io/
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    keywords:
+    - kubernetes
+    - nirmata
+    - policy agent
+    - validating webhook
+    - admissions controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Nirmata
+      url: https://kyverno.io/
+    name: kyverno
+    sources:
+    - https://github.com/kyverno/kyverno
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kyverno-v2.5.3/kyverno-v2.5.3.tgz
+    version: v2.5.3
+  kyverno-policies:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Support for artifacthub.io/changes annotation
+        - kind: fixed
+          description: Fix Kyverno version check when image tag contains registry port number
+        - kind: fixed
+          description: Ensure preconditions are present with default values
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: v1.7.5
+    created: "2023-04-22T02:40:26.852268179Z"
+    description: Kubernetes Pod Security Standards implemented as Kyverno policies
+    digest: 7d0f24b1816a3883f565281331724dcde8a475fa305edad805249501acad4524
+    home: https://kyverno.io/policies/
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    keywords:
+    - kubernetes
+    - nirmata
+    - policy agent
+    - validating webhook
+    - admissions controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Nirmata
+      url: https://kyverno.io/
+    name: kyverno-policies
+    sources:
+    - https://github.com/kyverno/policies
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/kyverno-policies-v2.5.5/kyverno-policies-v2.5.5.tgz
+    version: v2.5.5
+  linkerd:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:27.251840085Z"
+    description: A Helm chart for Kubernetes
+    digest: 330d771cb5dd457a910c79d67fe80ae823f1d0ea02cfda6387fc0bbd18d5aed0
+    name: linkerd
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/linkerd-0.1.0/linkerd-0.1.0.tgz
+    version: 0.1.0
+  logging-operator:
+  - apiVersion: v1
+    appVersion: 3.17.8
+    created: "2023-04-22T02:40:27.441239499Z"
+    description: A Helm chart to install Banzai Cloud logging-operator
+    digest: aa1ecdf44c47bf10c88a973d6f30b08b7663e81c1e59fa96f7d84695097c8a25
+    name: logging-operator
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/logging-operator-3.17.8/logging-operator-3.17.8.tgz
+    version: 3.17.8
+  logging-stack:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:27.644481132Z"
+    dependencies:
+    - alias: es-exporter
+      condition: es-exporter.enabled
+      name: prometheus-elasticsearch-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.12.0
+    description: A Helm chart for Kubernetes
+    digest: b16a0de8ec911fc7a7586b4c9adca9ed37855538388e17d63317b499b7e97ef2
+    name: logging-stack
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/logging-stack-0.1.0/logging-stack-0.1.0.tgz
+    version: 0.1.0
+  minio-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:27.851592397Z"
+    description: A Helm chart for Kubernetes
+    digest: 5369fb2e5e692f8dfa359ebe84d7391a53effa92490b75c1577e7c4adac49d8a
+    name: minio-operator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/minio-operator-0.1.0/minio-operator-0.1.0.tgz
+    version: 0.1.0
+  minio-tenants:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:28.058336459Z"
+    description: A Helm chart for Kubernetes
+    digest: 0a87fab0bab020296f8c590ed59e6d7c563878da08ba8603200754a69e1edced
+    name: minio-tenants
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/minio-tenants-0.1.0/minio-tenants-0.1.0.tgz
+    version: 0.1.0
+  mongodb-atlas-operator:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2023-04-22T02:40:28.312309924Z"
+    dependencies:
+    - condition: mongodb-atlas-operator-crds.enabled
+      name: mongodb-atlas-operator-crds
+      repository: https://mongodb.github.io/helm-charts
+      version: 1.3.0
+    description: 'MongoDB Atlas Operator - a Helm chart for installing and upgrading
+      Atlas Operator: the official Kubernetes operator allowing to manage MongoDB
+      Atlas resources from Kubernetes'
+    digest: 3721f8a24d31aa7549e4cefa2b3e0736bc324b2884d188ab0aff18c7d4751aa3
+    home: https://github.com/mongodb/mongodb-atlas-kubernetes
+    icon: https://camo.githubusercontent.com/d473c25e361fb2206f06bdcf24028e8d52bc30d1/68747470733a2f2f6d6f6e676f64622d6b756265726e657465732d6f70657261746f722e73332e616d617a6f6e6177732e636f6d2f696d672f4c6561662d466f7265737425343032782e706e67
+    keywords:
+    - mongodb
+    - atlas
+    - database
+    - cluster
+    - nosql
+    kubeVersion: '>=1.15.0-0'
+    maintainers:
+    - email: support@mongodb.com
+      name: MongoDB
+    name: mongodb-atlas-operator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/mongodb-atlas-operator-1.3.0/mongodb-atlas-operator-1.3.0.tgz
+    version: 1.3.0
+  mongodb-managed:
+  - apiVersion: v2
+    created: "2023-04-22T02:40:28.512923034Z"
+    dependencies:
+    - alias: mongodb-exporter
+      condition: mongodb-exporter.enabled
+      name: prometheus-mongodb-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.9.0
+    description: A Helm chart for Kubernetes
+    digest: e4ae30d350ff17f6ea6ae9ffe4a3b8a6a112342c21410891d3b1e03cd4634550
+    name: mongodb-managed
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/mongodb-managed-0.5.1/mongodb-managed-0.5.1.tgz
+    version: 0.5.1
+  mysql-backup:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2023-04-22T02:40:28.808319452Z"
+    description: Chart for kubernetes cronjob to do mysql-backup
+    digest: fce0742dd2e4cec94fb498e24fcd49bc60a97ec2c705140fe1e16becc0ef4d57
+    name: mysql-backup
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/mysql-backup-0.1.0/mysql-backup-0.1.0.tgz
+    version: 0.1.0
+  n9-api:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-04-22T02:40:29.014519711Z"
+    description: Neo9 standard API chart
+    digest: c3520422d78d43d63699e3d34d2d5028991074cacbbc21bfaa0288d564e80f2f
+    icon: https://neo9.fr/assets/images/neo9-logo-baseline.svg
+    name: n9-api
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/n9-api-1.3.8/n9-api-1.3.8.tgz
+    version: 1.3.8
+  namespace:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:29.218693053Z"
+    description: A Helm chart for Kubernetes
+    digest: cf2d89cf3e7765d17df051617406692087414565f21157761c96db7b254f9084
+    name: namespace
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/namespace-0.1.0/namespace-0.1.0.tgz
+    version: 0.1.0
+  nginx:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.23.1
+    created: "2023-04-22T02:40:29.421252181Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: be41e9d96a8c73d131dec70a1683c2058d115d762c7cc78aba14f1f92925a8c0
+    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/nginx
+    - https://www.nginx.org
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/nginx-13.1.8/nginx-13.1.8.tgz
+    version: 13.1.8
+  nginx-ingress-controller:
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.7.0
+    created: "2023-04-22T02:40:29.63910934Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Ingress Controller is an Ingress controller that manages external
+      access to HTTP services in a Kubernetes cluster using NGINX.
+    digest: 85f639f40271249c5755edaa2f496f3482c818a750ba428233ba083c3605f7db
+    home: https://github.com/bitnami/charts/tree/main/bitnami/nginx-ingress-controller
+    icon: https://bitnami.com/assets/stacks/nginx-ingress-controller/img/nginx-ingress-controller-stack-220x234.png
+    keywords:
+    - ingress
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    kubeVersion: '>= 1.20.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: nginx-ingress-controller
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/nginx-ingress-controller
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/nginx-ingress-controller-9.5.1/nginx-ingress-controller-9.5.1.tgz
+    version: 9.5.1
+  node-initializer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:29.831852284Z"
+    description: A Helm chart for Kubernetes
+    digest: debaeb173f7c081cd5ab20d3f0ed9e40802de50359fda73c40a4925ea17131b1
+    name: node-initializer
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/node-initializer-0.1.0/node-initializer-0.1.0.tgz
+    version: 0.1.0
+  node-problem-detector:
+  - apiVersion: v1
+    appVersion: v0.8.12
+    created: "2023-04-22T02:40:30.042127978Z"
+    description: 'This chart installs a [node-problem-detector](https://github.com/kubernetes/node-problem-detector)
+      daemonset. This tool aims to make various node problems visible to the upstream
+      layers in cluster management stack. It is a daemon which runs on each node,
+      detects node problems and reports them to apiserver. '
+    digest: 401e08c114404dc5aa72ed0641321216b2d4073a842bdda26b8bff650c89174f
+    home: https://github.com/kubernetes/node-problem-detector
+    icon: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
+    keywords:
+    - node
+    - problem
+    - detector
+    - monitoring
+    maintainers:
+    - email: no-reply@deliveryhero.com
+      name: max-rocket-internet
+    name: node-problem-detector
+    sources:
+    - https://github.com/kubernetes/node-problem-detector
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#condition
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/node-problem-detector-2.2.6/node-problem-detector-2.2.6.tgz
+    version: 2.2.6
+  oauth2-proxy:
+  - apiVersion: v2
+    appVersion: 7.3.0
+    created: "2023-04-22T02:40:30.264197273Z"
+    dependencies:
+    - alias: redis
+      condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~16.4.0
+    description: A reverse proxy that provides authentication with Google, Github
+      or other providers
+    digest: 0998ee3fa3eeae0519b4f22c2668ee1dda536f6afb9443c7f900283a7038fb15
+    home: https://oauth2-proxy.github.io/oauth2-proxy/
+    keywords:
+    - kubernetes
+    - oauth
+    - oauth2
+    - authentication
+    - google
+    - github
+    - redis
+    kubeVersion: '>=1.9.0-0'
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - name: tlawrie
+    - email: nicholas.meves@gmail.com
+      name: NickMeves
+    - email: joel.speed@hotmail.co.uk
+      name: JoelSpeed
+    - email: pierluigi.lenoci@gmail.com
+      name: pierluigilenoci
+    name: oauth2-proxy
+    sources:
+    - https://github.com/oauth2-proxy/oauth2-proxy
+    - https://github.com/oauth2-proxy/manifests
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/oauth2-proxy-6.3.0/oauth2-proxy-6.3.0.tgz
+    version: 6.3.0
+  opencost:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2023-04-22T02:40:30.456182911Z"
+    description: A Helm chart for Kubernetes
+    digest: 000e6bc79d88b54bb84e5c475cf55f6f9a2bc5a3f554e25dcaecc36f9c7e73db
+    name: opencost
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/opencost-0.1.1/opencost-0.1.1.tgz
+    version: 0.1.1
+  patch-operator:
+  - apiVersion: v1
+    appVersion: v0.1.9
+    created: "2023-04-22T02:40:30.668358921Z"
+    description: Helm chart that deploys patch-operator
+    digest: ad0283decfe3aa56752ade5b74bbcc49d1efabcc2f810a718a6e0c50b9ded6e8
+    keywords:
+    - volume
+    - storage
+    - csi
+    - expansion
+    - monitoring
+    name: patch-operator
+    sources:
+    - https://github.com/redhat-cop/patch-operator
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/patch-operator-v0.1.9/patch-operator-v0.1.9.tgz
+    version: v0.1.9
+  polaris:
+  - apiVersion: v1
+    appVersion: "7.0"
+    created: "2023-04-22T02:40:30.850634977Z"
+    description: Validation of best practices in your Kubernetes clusters
+    digest: aaa9088f2abcdb6e5b1112f4b863ebc8d3a7d960b3f2e0a0a8a367ddadcfb9f5
+    icon: https://raw.githubusercontent.com/FairwindsOps/polaris/master/pkg/dashboard/assets/favicon-32x32.png
+    maintainers:
+    - email: robertb@fairwinds.com
+      name: rbren
+    name: polaris
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/polaris-5.4.1/polaris-5.4.1.tgz
+    version: 5.4.1
+  postgres-managed:
+  - apiVersion: v2
+    appVersion: 1.8.2
+    created: "2023-04-22T02:40:31.050835785Z"
+    description: A Helm chart to create postgresql ressource for zalando operator
+    digest: d336aeac43961371dacbfeaa67a5979d01258ad3efd7b416da651d83713049e7
+    name: postgres-managed
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/postgres-managed-0.2.2/postgres-managed-0.2.2.tgz
+    version: 0.2.2
+  postgres-operator:
+  - apiVersion: v2
+    appVersion: 1.8.2
+    created: "2023-04-22T02:40:31.233292941Z"
+    description: Postgres Operator creates and manages PostgreSQL clusters running
+      in Kubernetes
+    digest: f886bf4e56ca021da8d527ebb8a4498fc4d8056f998d3b3d50e5c76bac4f1c45
+    home: https://github.com/zalando/postgres-operator
+    keywords:
+    - postgres
+    - operator
+    - cloud-native
+    - patroni
+    - spilo
+    maintainers:
+    - email: opensource@zalando.de
+      name: Zalando
+    name: postgres-operator
+    sources:
+    - https://github.com/zalando/postgres-operator
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/postgres-operator-1.8.2/postgres-operator-1.8.2.tgz
+    version: 1.8.2
+  predator:
+  - apiVersion: v1
+    appVersion: "1.6"
+    created: "2023-04-22T02:40:31.442323925Z"
+    description: Predator is an open-source distributed performance testing platform
+    digest: 1067c7f1164a4f22def35968d90fcf1b126fc5f90318adca767b3dcc6ba69e1e
+    home: https://zooz.github.io/predator
+    icon: https://zooz.github.io/predator/logo.png
+    keywords:
+    - performance
+    - node.js
+    - rest
+    - stress
+    - test
+    - load
+    maintainers:
+    - email: enudler@gmail.com
+      name: enudler
+    name: predator
+    sources:
+    - https://github.com/Zooz/predator
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/predator-1.6.3/predator-1.6.3.tgz
+    version: 1.6.3
+  priority-class:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:31.630561031Z"
+    description: A Helm chart for Kubernetes
+    digest: f7d3e08154a2ce3ee240fc89c2edb55ac2dce7389b8deed8e724697f19ba8fa9
+    name: priority-class
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/priority-class-0.1.0/priority-class-0.1.0.tgz
+    version: 0.1.0
+  prometheus-adapter:
+  - apiVersion: v1
+    appVersion: v0.10.0
+    created: "2023-04-22T02:40:31.837989901Z"
+    description: A Helm chart for k8s prometheus adapter
+    digest: 169081f61a2e634a2204f1c067c2eb368d6e4b25489914737bd4b50ae92b0246
+    home: https://github.com/kubernetes-sigs/prometheus-adapter
+    keywords:
+    - hpa
+    - metrics
+    - prometheus
+    - adapter
+    maintainers:
+    - email: mattias.gees@jetstack.io
+      name: mattiasgees
+    - name: steven-sheehy
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    name: prometheus-adapter
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/kubernetes-sigs/prometheus-adapter
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/prometheus-adapter-3.4.0/prometheus-adapter-3.4.0.tgz
+    version: 3.4.0
+  prometheus-pushgateway:
+  - apiVersion: v1
+    appVersion: 1.4.2
+    created: "2023-04-22T02:40:32.040866732Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 34ba5a418aa85e63b6097fb659c702a857a92201c052269c6cf263ed28b8d6d1
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/prometheus-pushgateway-1.18.3/prometheus-pushgateway-1.18.3.tgz
+    version: 1.18.3
+  pyrra:
+  - apiVersion: v2
+    appVersion: v0.5.1
+    created: "2023-04-22T02:40:32.259305795Z"
+    description: SLO manager and alert generator
+    digest: 2d0f487ee6e453b4701d5e2e3a0804bddbf08a8e8d7303e79474fad2e43ce462
+    name: pyrra
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/pyrra-0.4.1/pyrra-0.4.1.tgz
+    version: 0.4.1
+  rabbitmq-cluster-operator:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-04-22T02:40:32.501568762Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: The RabbitMQ Cluster Kubernetes Operator automates provisioning,
+      management, and operations of RabbitMQ clusters running on Kubernetes.
+    digest: dcba7cf82a0d5d1f50e41b985d68f8247f8e5e9b5d5d897f82d6d3b66dc58fc4
+    home: https://github.com/rabbitmq/cluster-operator
+    icon: https://bitnami.com/assets/stacks/rabbitmq-cluster-operator/img/rabbitmq-cluster-operator-stack-220x234.png
+    keywords:
+    - rabbitmq
+    - operator
+    - infrastructure
+    - message queue
+    - AMQP
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: rabbitmq-cluster-operator
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/rabbitmq-cluster-operator
+    - https://github.com/rabbitmq/cluster-operator
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/rabbitmq-cluster-operator-3.1.0/rabbitmq-cluster-operator-3.1.0.tgz
+    version: 3.1.0
+  rabbitmq-managed:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:32.680988193Z"
+    description: A Helm chart for Kubernetes
+    digest: b1f422d5e416c3145ec48a6eaed11c36e70b2e626a30f86704d568524cb76eb1
+    name: rabbitmq-managed
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/rabbitmq-managed-0.3.0/rabbitmq-managed-0.3.0.tgz
+    version: 0.3.0
+  raw:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-04-22T02:40:32.863345649Z"
+    description: A helm chart for deploying raw manifests
+    digest: 4af4bff8d929b2aaf9ada17555fb1a3bbbc2903a2320c2aa46d94bf2453514f5
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: raw
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/raw-1.0.1/raw-1.0.1.tgz
+    version: 1.0.1
+  reloader:
+  - apiVersion: v1
+    appVersion: v0.0.118
+    created: "2023-04-22T02:40:33.057665507Z"
+    description: Reloader chart that runs on kubernetes
+    digest: 755bae8603a91452b7a3a58e06008145bead7f3fe340939faf4b4bb913b7d475
+    home: https://github.com/stakater/Reloader
+    icon: https://raw.githubusercontent.com/stakater/Reloader/master/assets/web/reloader-round-100px.png
+    keywords:
+    - Reloader
+    - kubernetes
+    maintainers:
+    - email: hello@stakater.com
+      name: Stakater
+    - email: rasheed@aurorasolutions.io
+      name: rasheedamir
+    - email: waseemhassan@stakater.com
+      name: waseem-h
+    - email: faizan.ahmad55@outlook.com
+      name: faizanahmad055
+    - email: ali.kahoot@aurorasolutions.io
+      name: kahootali
+    - email: ahmad@aurorasolutions.io
+      name: ahmadiq
+    - email: ahsanmuhammad1@outlook.com
+      name: ahsan-storm
+    - email: waleed@stakater.com
+      name: ahmedwaleedmalik
+    name: reloader
+    sources:
+    - https://github.com/stakater/Reloader
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/reloader-v0.0.118/reloader-v0.0.118.tgz
+    version: v0.0.118
+  sealed-secrets:
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: v0.18.1
+    created: "2023-04-22T02:40:33.246219116Z"
+    description: Helm chart for the sealed-secrets controller.
+    digest: f7c0e741cc1e69973c45e242753f9e3680808d22bcd1f9a405768236da657947
+    home: https://github.com/bitnami-labs/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami-labs/sealed-secrets
+    name: sealed-secrets
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/sealed-secrets-2.6.0/sealed-secrets-2.6.0.tgz
+    version: 2.6.0
+  sidecar-cleaner:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2023-04-22T02:40:33.446742327Z"
+    description: A simple app to watch and clean up istio-proxy sidecars in kubernetes
+      Jobs with /quitquitquit
+    digest: b9a57567bf7070c03fdd5e721221f924d2c6a410879fa7b512d4903e1fbfdd2b
+    name: sidecar-cleaner
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/sidecar-cleaner-0.3.0/sidecar-cleaner-0.3.0.tgz
+    version: 0.3.0
+  slack-operator:
+  - apiVersion: v2
+    appVersion: 0.0.8
+    created: "2023-04-22T02:40:33.82449025Z"
+    description: A Helm chart for Kubernetes
+    digest: 6cd12ad04ce69a9a37fa66ecef110c7f2708be0dffd1bef0d3ad2a9e3f18fe55
+    name: slack-operator
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/slack-operator-0.1.0/slack-operator-0.1.0.tgz
+    version: 0.1.0
+  sloop:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-04-22T02:40:34.016856591Z"
+    description: Sloop is a kubernetes history visualization tool.
+    digest: d72ca9932d781c2f790d9b6dfb22a18db7e40365bde840efb63c0977cb272e08
+    icon: https://raw.githubusercontent.com/salesforce/sloop/master/other/sloop_logo_color.png
+    name: sloop
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/sloop-0.1.0/sloop-0.1.0.tgz
+    version: 0.1.0
+  sloth:
+  - apiVersion: v2
+    created: "2023-04-22T02:40:34.228707499Z"
+    description: Base chart for Sloth.
+    digest: ee92ccc891e196abcdfdbc367ae643ffe9538e619fb11df7afc7bc9c7c529039
+    home: https://github.com/slok/sloth
+    kubeVersion: '>= 1.19.0-0'
+    name: sloth
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/sloth-0.5.2/sloth-0.5.2.tgz
+    version: 0.5.2
+  sonarqube:
+  - apiVersion: v1
+    appVersion: 8.5.1-community
+    created: "2023-04-22T02:40:34.425089274Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.6.4
+    description: SonarQube is an open sourced code quality scanning tool
+    digest: 7d1d739bf6ab85e142d9ac8316448bbf28ecc817bb3af6b9cd22ffc0580c6d7e
+    home: https://www.sonarqube.org/
+    icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
+    keywords:
+    - coverage
+    - security
+    - code
+    - quality
+    maintainers:
+    - email: rjkernick@gmail.com
+      name: rjkernick
+    - email: tsiddique@live.com
+      name: tsiddique
+    name: sonarqube
+    sources:
+    - https://github.com/SonarSource/docker-sonarqube
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/sonarqube-9.8.2/sonarqube-9.8.2.tgz
+    version: 9.8.2
+  sonatype-nexus:
+  - apiVersion: v1
+    appVersion: 3.37.3
+    created: "2023-04-22T02:40:34.632716446Z"
+    description: Sonatype Nexus is an open source repository manager
+    digest: 9d9ba03d2fc5acd50f4023b82522d76000a5ca71a9b37a66a82db9012bb2f023
+    home: https://www.sonatype.com/nexus-repository-oss
+    icon: https://www.sonatype.com/hubfs/2021%20Design%20System/Logo_vert@2x.png
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    maintainers:
+    - email: rjkernick@gmail.com
+      name: rjkernick
+    - email: tsiddique@live.com
+      name: tsiddique
+    name: sonatype-nexus
+    sources:
+    - https://github.com/sonatype/nexus-public
+    - https://github.com/travelaudience/docker-nexus
+    - https://github.com/travelaudience/kubernetes-nexus
+    - https://github.com/travelaudience/docker-nexus-backup
+    - https://github.com/dbccompany/docker-nexus-backup
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/sonatype-nexus-5.4.0/sonatype-nexus-5.4.0.tgz
+    version: 5.4.0
+  starboard-operator:
+  - apiVersion: v2
+    appVersion: 0.10.3
+    created: "2023-04-22T02:40:34.823192171Z"
+    description: A Helm chart for starboard-operator.
+    digest: a936948f765a030cb8ef88fef6075e5023bd88112f7f59d2c7052c99cfe071e5
+    keywords:
+    - aquasecurity
+    - starboard
+    - trivy
+    name: starboard-operator
+    sources:
+    - https://github.com/aquasecurity/starboard
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/starboard-operator-0.5.3/starboard-operator-0.5.3.tgz
+    version: 0.5.3
+  system-jobs:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:35.019161443Z"
+    description: A Helm chart for Kubernetes
+    digest: 318876968bba36cc17107361160e81baf4830cc093bcd6c30c544928b6f2d9c5
+    name: system-jobs
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/system-jobs-0.1.0/system-jobs-0.1.0.tgz
+    version: 0.1.0
+  tekton:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:35.267170259Z"
+    description: A Helm chart for Kubernetes
+    digest: 6d9e5795dc3ceb186800d828db39b3b8c46b1a7c623b254d3a27bf2ff5ad04e7
+    name: tekton
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/tekton-0.1.0/tekton-0.1.0.tgz
+    version: 0.1.0
+  tekton-catalog:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:35.512051448Z"
+    description: A Helm chart for Kubernetes
+    digest: d6a5fcc62b480acb2ed81022b3aa729a5f39e4f49e9606fa990eff55872c8889
+    name: tekton-catalog
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/tekton-catalog-0.1.0/tekton-catalog-0.1.0.tgz
+    version: 0.1.0
+  tekton-logging:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:35.720098523Z"
+    description: A Helm chart for Kubernetes
+    digest: 09afa43ce2f79929bd017924f22ba474cfb1d6b02a0edd874b866c41c2fa6b7f
+    name: tekton-logging
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/tekton-logging-0.1.0/tekton-logging-0.1.0.tgz
+    version: 0.1.0
+  test-logging:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T02:40:35.910482647Z"
+    description: A Helm chart for Kubernetes
+    digest: d15be93393e83c19f8c2b2ba8178bf9ad077d784ac4f77c74bb675e7deddde02
+    name: test-logging
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/test-logging-0.1.0/test-logging-0.1.0.tgz
+    version: 0.1.0
+  trivy:
+  - apiVersion: v2
+    appVersion: 0.30.4
+    created: "2023-04-22T02:40:36.132694043Z"
+    description: Trivy helm chart
+    digest: 7aa7bcd2befc113216d8259421f76e5b00172093ddba147bf262ea7f4f6dfd85
+    keywords:
+    - scanner
+    - trivy
+    - vulnerability
+    name: trivy
+    sources:
+    - https://github.com/aquasecurity/trivy
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/trivy-0.4.17/trivy-0.4.17.tgz
+    version: 0.4.17
+  velero:
+  - apiVersion: v2
+    appVersion: 1.9.1
+    created: "2023-04-22T02:40:36.337229289Z"
+    description: A Helm chart for velero
+    digest: 949f82b205830ef0916db918116d9f1a4df228ec76ade81a6179fe9b78e28868
+    home: https://github.com/vmware-tanzu/velero
+    icon: https://cdn-images-1.medium.com/max/1600/1*-9mb3AKnKdcL_QD3CMnthQ.png
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: hsiaoairplane@gmail.com
+      name: jenting
+    - email: sseago@redhat.com
+      name: sseago
+    - email: jiangd@vmware.com
+      name: reasonerjt
+    - email: yinw@vmware.com
+      name: ywk253100
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/velero-2.31.3/velero-2.31.3.tgz
+    version: 2.31.3
+  zeebe-cluster-helm:
+  - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2023-04-22T02:40:36.574304611Z"
+    dependencies:
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.13.2
+    - condition: kibana.enabled
+      name: kibana
+      repository: https://helm.elastic.co
+      version: 7.13.2
+    - condition: prometheus.enabled
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 12.0.X
+    description: Zeebe Cluster Helm Chart for Kubernetes
+    digest: 252ea45637275df63e3fa0f4c7cd2d763c5ee6fbfe53b5f1e84fa62d64a8cada
+    icon: https://zeebe.io/img/zeebe-logo.png
+    name: zeebe-cluster-helm
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/zeebe-cluster-helm-1.2.0/zeebe-cluster-helm-1.2.0.tgz
+    version: 1.2.0
+  zeebe-operate-helm:
+  - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2023-04-22T02:40:36.806569693Z"
+    description: Zeebe Operate Helm Chart for Kubernetes
+    digest: dbd01990d9d13c9aa4a5879100484b5bfe35f30f758f405cd3f00b6924e7b27e
+    icon: https://zeebe.io/img/zeebe-logo.png
+    name: zeebe-operate-helm
+    type: application
+    urls:
+    - https://github.com/kube-core/dist-charts/releases/download/zeebe-operate-helm-1.1.3/zeebe-operate-helm-1.1.3.tgz
+    version: 1.1.3
+generated: "2023-04-22T02:40:36.806623093Z"

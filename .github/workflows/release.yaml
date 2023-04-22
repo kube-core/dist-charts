@@ -28,7 +28,7 @@ jobs:
 
       - name: Create packages
         run: |
-          mkdir -p ./.cr-release-packages && find ./charts/* -mindepth 0 -maxdepth 1 -type d | xargs -i helm package --destination ./.cr-release-packages '{}'
+          mkdir -p ./.cr-release-packages && find ./charts/* -mindepth 0 -maxdepth 0 -type d | xargs -i helm package --destination ./.cr-release-packages '{}'
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.5.0

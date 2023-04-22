@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: 0.1.0
+dependencies:
+- alias: es-exporter
+  condition: es-exporter.enabled
+  name: prometheus-elasticsearch-exporter
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 4.12.0
+description: A Helm chart for Kubernetes
+name: logging-stack
+type: application
+version: 0.1.0
